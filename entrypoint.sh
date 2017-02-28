@@ -2,6 +2,12 @@
 
 set -e
 
+# sanity check
+if [ ! -d "/opt/out" ]; then
+  echo "Please run docker with \"-v \`pwd\`/out:/opt/out\" option"
+  false;
+fi
+
 cd /opt/merlin
 
 text="Hello my name is Joker. Today is a great day because it's my birthday"
