@@ -11,7 +11,7 @@ In the command line run following commands
 docker build -t tts .
 docker run -it -v `pwd`/out:/opt/out tts
 ```
-Default text ('Hello, my name is Joker') will be used. Resulting audio file location: 'out/tts.wav'.
+Default text ('Hello, my name is Joker ...') will be used. Resulting audio file location: 'out/tts.wav'.
 
 ## Provide your own text
 run docker container with your text as argument:

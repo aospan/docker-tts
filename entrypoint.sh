@@ -4,7 +4,7 @@ set -e
 
 cd /opt/merlin
 
-text="Hello, my name is Joker"
+text="Hello my name is Joker. Today is a great day because it's my birthday"
 if [ ! -z "$1" ]; then
     text=$@
 fi
